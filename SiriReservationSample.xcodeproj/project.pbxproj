@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA6211BD25991DD000DAC95E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6211BC25991DD000DAC95E /* AppDelegate.swift */; };
+		DA6211BF25991DD000DAC95E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6211BE25991DD000DAC95E /* SceneDelegate.swift */; };
+		DA6211C125991DD000DAC95E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6211C025991DD000DAC95E /* ContentView.swift */; };
+		DA6211C325991DD000DAC95E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6211C225991DD000DAC95E /* Assets.xcassets */; };
+		DA6211C625991DD000DAC95E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA6211C525991DD000DAC95E /* Preview Assets.xcassets */; };
+		DA6211C925991DD000DAC95E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA6211C725991DD000DAC95E /* LaunchScreen.storyboard */; };
+		DA6211D225991DDB00DAC95E /* SiriHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6211D125991DDB00DAC95E /* SiriHelper.swift */; };
+		DA6211DA2599282900DAC95E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6211D92599282900DAC95E /* Constants.swift */; };
+		DA6211E12599299900DAC95E /* ReservationCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6211E02599299900DAC95E /* ReservationCreator.swift */; };
+		DA6211E5259929C600DAC95E /* ReservationViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6211E4259929C600DAC95E /* ReservationViewer.swift */; };
+		DA6211E825992AE500DAC95E /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA6211E725992AE500DAC95E /* NetworkHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DA6211B925991DD000DAC95E /* SiriReservationSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SiriReservationSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6211BC25991DD000DAC95E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA6211BE25991DD000DAC95E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA6211C025991DD000DAC95E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA6211C225991DD000DAC95E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA6211C525991DD000DAC95E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA6211C825991DD000DAC95E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA6211CA25991DD000DAC95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6211D125991DDB00DAC95E /* SiriHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiriHelper.swift; sourceTree = "<group>"; };
+		DA6211D92599282900DAC95E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DA6211E02599299900DAC95E /* ReservationCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationCreator.swift; sourceTree = "<group>"; };
+		DA6211E4259929C600DAC95E /* ReservationViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewer.swift; sourceTree = "<group>"; };
+		DA6211E725992AE500DAC95E /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		DA6211F125993DA300DAC95E /* SiriReservationSample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SiriReservationSample.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA6211B625991DD000DAC95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA6211B025991DD000DAC95E = {
+			isa = PBXGroup;
+			children = (
+				DA6211BB25991DD000DAC95E /* SiriReservationSample */,
+				DA6211BA25991DD000DAC95E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA6211BA25991DD000DAC95E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA6211B925991DD000DAC95E /* SiriReservationSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA6211BB25991DD000DAC95E /* SiriReservationSample */ = {
+			isa = PBXGroup;
+			children = (
+				DA6211F125993DA300DAC95E /* SiriReservationSample.entitlements */,
+				DA6211D92599282900DAC95E /* Constants.swift */,
+				DA6211DD2599296A00DAC95E /* App */,
+				DA6211DE2599297200DAC95E /* Module */,
+				DA6211DF2599298100DAC95E /* Views */,
+				DA6211C225991DD000DAC95E /* Assets.xcassets */,
+				DA6211C725991DD000DAC95E /* LaunchScreen.storyboard */,
+				DA6211CA25991DD000DAC95E /* Info.plist */,
+				DA6211C425991DD000DAC95E /* Preview Content */,
+			);
+			path = SiriReservationSample;
+			sourceTree = "<group>";
+		};
+		DA6211C425991DD000DAC95E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA6211C525991DD000DAC95E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA6211DD2599296A00DAC95E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DA6211BC25991DD000DAC95E /* AppDelegate.swift */,
+				DA6211BE25991DD000DAC95E /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DA6211DE2599297200DAC95E /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				DA6211D125991DDB00DAC95E /* SiriHelper.swift */,
+				DA6211E725992AE500DAC95E /* NetworkHelper.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		DA6211DF2599298100DAC95E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DA6211C025991DD000DAC95E /* ContentView.swift */,
+				DA6211E02599299900DAC95E /* ReservationCreator.swift */,
+				DA6211E4259929C600DAC95E /* ReservationViewer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA6211B825991DD000DAC95E /* SiriReservationSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA6211CD25991DD000DAC95E /* Build configuration list for PBXNativeTarget "SiriReservationSample" */;
+			buildPhases = (
+				DA6211B525991DD000DAC95E /* Sources */,
+				DA6211B625991DD000DAC95E /* Frameworks */,
+				DA6211B725991DD000DAC95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SiriReservationSample;
+			productName = SiriReservationSample;
+			productReference = DA6211B925991DD000DAC95E /* SiriReservationSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA6211B125991DD000DAC95E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					DA6211B825991DD000DAC95E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = DA6211B425991DD000DAC95E /* Build configuration list for PBXProject "SiriReservationSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA6211B025991DD000DAC95E;
+			productRefGroup = DA6211BA25991DD000DAC95E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA6211B825991DD000DAC95E /* SiriReservationSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA6211B725991DD000DAC95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6211C925991DD000DAC95E /* LaunchScreen.storyboard in Resources */,
+				DA6211C625991DD000DAC95E /* Preview Assets.xcassets in Resources */,
+				DA6211C325991DD000DAC95E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA6211B525991DD000DAC95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6211E825992AE500DAC95E /* NetworkHelper.swift in Sources */,
+				DA6211DA2599282900DAC95E /* Constants.swift in Sources */,
+				DA6211BD25991DD000DAC95E /* AppDelegate.swift in Sources */,
+				DA6211BF25991DD000DAC95E /* SceneDelegate.swift in Sources */,
+				DA6211D225991DDB00DAC95E /* SiriHelper.swift in Sources */,
+				DA6211C125991DD000DAC95E /* ContentView.swift in Sources */,
+				DA6211E12599299900DAC95E /* ReservationCreator.swift in Sources */,
+				DA6211E5259929C600DAC95E /* ReservationViewer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA6211C725991DD000DAC95E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA6211C825991DD000DAC95E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA6211CB25991DD000DAC95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA6211CC25991DD000DAC95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA6211CE25991DD000DAC95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SiriReservationSample/SiriReservationSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SiriReservationSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9LFMJA3SC2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SiriReservationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShunzheMa.SiriReservationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA6211CF25991DD000DAC95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SiriReservationSample/SiriReservationSample.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SiriReservationSample/Preview Content\"";
+				DEVELOPMENT_TEAM = 9LFMJA3SC2;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SiriReservationSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ShunzheMa.SiriReservationSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA6211B425991DD000DAC95E /* Build configuration list for PBXProject "SiriReservationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6211CB25991DD000DAC95E /* Debug */,
+				DA6211CC25991DD000DAC95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA6211CD25991DD000DAC95E /* Build configuration list for PBXNativeTarget "SiriReservationSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA6211CE25991DD000DAC95E /* Debug */,
+				DA6211CF25991DD000DAC95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA6211B125991DD000DAC95E /* Project object */;
+}
